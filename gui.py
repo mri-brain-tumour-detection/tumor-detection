@@ -11,6 +11,7 @@ def names(number):
     else:
         return 'No, Its not a tumor'
 
+
 st.title("Brain Tumor Detection")
 st.write("Upload a brain MRI Image for tumor detection")
 uploaded_file = st.file_uploader("Choose a brain MRI Image ...", type="jpg")
